@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd ~/openwrt/trunk
+cd ~/openwrt/barrier_breaker
 # update source
 svn update
 
@@ -10,7 +10,7 @@ svn update
 
 # create symbolic link to download directory
 if [ ! -d dl ]; then
-	ln -s ~/openwrt/dl-trunk dl
+	ln -s ~/openwrt/dl-barrier_breaker dl
 fi
 
 make defconfig
