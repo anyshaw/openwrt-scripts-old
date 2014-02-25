@@ -6,12 +6,8 @@ cd ~/openwrt
 
 git clone git://git.openwrt.org/openwrt.git barrier_breaker
 git clone git://github.com/sancome/openwrt-plus.git
-#git clone git://github.com/binux/yaaw.git
-#git clone git://github.com/ziahamza/webui-aria2.git
 
 cp ./barrier_breaker/feeds.conf.default ./barrier_breaker/feeds.conf
-#echo "src-git exopenwrt https://github.com/black-roland/exOpenWrt.git" >> ./barrier_breaker/feeds.conf
-#echo "src-git mwan git://github.com/Adze1502/mwan.git" >> ./barrier_breaker/feeds.conf
 
 ./barrier_breaker/scripts/feeds update -a
 ./barrier_breaker/scripts/feeds install -a
@@ -46,11 +42,6 @@ rm -rf ./barrier_breaker/feeds/luci/libs/web/root/etc/config/luci.diff
 #operating fils directory
 #copy config files
 cp -rf ./openwrt-plus/files ./barrier_breaker/
-
-#add yaaw
-#cp -rf ./yaaw ./barrier_breaker/feeds/luci/modules/admin-core/root/www/
-#add webui-aria2
-#cp -rf ./webui-aria2 ./barrier_breaker/feeds/luci/modules/admin-core/root/www/
 
 #delete openwrt-plus
 rm -rf ./openwrt-plus
