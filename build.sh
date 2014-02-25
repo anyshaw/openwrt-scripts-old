@@ -61,13 +61,13 @@ if [ ! -d dl-barrier_breaker ]; then
 fi
 
 #make
-cd barrier_breaker
+cd ~/openwrt/barrier_breaker
 # create symbolic link to download directory
 if [ ! -d dl ]; then
     ln -s ~/openwrt/dl-barrier_breaker dl
 fi
 
-#cp ../openwrt_scripts/config.db120 ./.config
+#cp ~/openwrt/openwrt_scripts/config.db120 ./.config
 #make defconfig
 #make menuconfig
 #make V=99
