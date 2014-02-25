@@ -1412,7 +1412,7 @@ CONFIG_PACKAGE_kmod-ip6tables=y
 # CONFIG_PACKAGE_kmod-ipt-compat-xtables is not set
 # CONFIG_PACKAGE_kmod-ipt-condition is not set
 CONFIG_PACKAGE_kmod-ipt-conntrack=y
-CONFIG_PACKAGE_kmod-ipt-conntrack-extra=m
+# CONFIG_PACKAGE_kmod-ipt-conntrack-extra is not set
 CONFIG_PACKAGE_kmod-ipt-core=y
 # CONFIG_PACKAGE_kmod-ipt-debug is not set
 # CONFIG_PACKAGE_kmod-ipt-delude is not set
@@ -1425,7 +1425,7 @@ CONFIG_PACKAGE_kmod-ipt-extra=y
 # CONFIG_PACKAGE_kmod-ipt-hashlimit is not set
 # CONFIG_PACKAGE_kmod-ipt-iface is not set
 # CONFIG_PACKAGE_kmod-ipt-ipmark is not set
-CONFIG_PACKAGE_kmod-ipt-ipopt=m
+# CONFIG_PACKAGE_kmod-ipt-ipopt is not set
 # CONFIG_PACKAGE_kmod-ipt-ipp2p is not set
 # CONFIG_PACKAGE_kmod-ipt-iprange is not set
 # CONFIG_PACKAGE_kmod-ipt-ipsec is not set
@@ -1481,7 +1481,7 @@ CONFIG_PACKAGE_kmod-nfnetlink=y
 # CONFIG_PACKAGE_kmod-hfcpci is not set
 # CONFIG_PACKAGE_kmod-ifb is not set
 # CONFIG_PACKAGE_kmod-libphy is not set
-CONFIG_PACKAGE_kmod-macvlan=m
+# CONFIG_PACKAGE_kmod-macvlan is not set
 # CONFIG_PACKAGE_kmod-mii is not set
 # CONFIG_PACKAGE_kmod-natsemi is not set
 # CONFIG_PACKAGE_kmod-ne2k-pci is not set
@@ -2343,7 +2343,6 @@ CONFIG_PACKAGE_luci-app-cpulimit=m
 CONFIG_PACKAGE_luci-app-ddns=y
 # CONFIG_PACKAGE_luci-app-diag-core is not set
 # CONFIG_PACKAGE_luci-app-diag-devinfo is not set
-CONFIG_PACKAGE_luci-app-dnsfilter=y
 CONFIG_PACKAGE_luci-app-firewall=y
 # CONFIG_PACKAGE_luci-app-freifunk-diagnostics is not set
 # CONFIG_PACKAGE_luci-app-freifunk-policyrouting is not set
@@ -2353,9 +2352,8 @@ CONFIG_PACKAGE_luci-app-gmediarender=y
 # CONFIG_PACKAGE_luci-app-ltqtapi is not set
 # CONFIG_PACKAGE_luci-app-meshwizard is not set
 # CONFIG_PACKAGE_luci-app-mmc-over-gpio is not set
-CONFIG_PACKAGE_luci-app-multiwan=m
+# CONFIG_PACKAGE_luci-app-multiwan is not set
 # CONFIG_PACKAGE_luci-app-ntpc is not set
-CONFIG_PACKAGE_luci-app-nwan=m
 # CONFIG_PACKAGE_luci-app-olsr is not set
 # CONFIG_PACKAGE_luci-app-p2pblock is not set
 # CONFIG_PACKAGE_luci-app-p910nd is not set
@@ -2717,8 +2715,8 @@ CONFIG_PACKAGE_curl=m
 # CONFIG_PACKAGE_uftpproxyd is not set
 # CONFIG_PACKAGE_uftpproxyd-notls is not set
 # CONFIG_PACKAGE_uucp is not set
-CONFIG_PACKAGE_vsftpd=y
-# CONFIG_PACKAGE_vsftpd-tls is not set
+# CONFIG_PACKAGE_vsftpd is not set
+CONFIG_PACKAGE_vsftpd-tls=y
 CONFIG_PACKAGE_wget=y
 # CONFIG_PACKAGE_wget-nossl is not set
 # CONFIG_PACKAGE_wput is not set
@@ -2756,7 +2754,7 @@ CONFIG_PACKAGE_iptables=y
 # CONFIG_PACKAGE_iptables-mod-account is not set
 # CONFIG_PACKAGE_iptables-mod-chaos is not set
 # CONFIG_PACKAGE_iptables-mod-condition is not set
-CONFIG_PACKAGE_iptables-mod-conntrack-extra=m
+# CONFIG_PACKAGE_iptables-mod-conntrack-extra is not set
 # CONFIG_PACKAGE_iptables-mod-delude is not set
 # CONFIG_PACKAGE_iptables-mod-dhcpmac is not set
 # CONFIG_PACKAGE_iptables-mod-dnetmap is not set
@@ -2767,7 +2765,7 @@ CONFIG_PACKAGE_iptables-mod-extra=y
 # CONFIG_PACKAGE_iptables-mod-hashlimit is not set
 # CONFIG_PACKAGE_iptables-mod-iface is not set
 # CONFIG_PACKAGE_iptables-mod-ipmark is not set
-CONFIG_PACKAGE_iptables-mod-ipopt=m
+# CONFIG_PACKAGE_iptables-mod-ipopt is not set
 # CONFIG_PACKAGE_iptables-mod-ipp2p is not set
 # CONFIG_PACKAGE_iptables-mod-iprange is not set
 # CONFIG_PACKAGE_iptables-mod-ipsec is not set
@@ -3017,7 +3015,7 @@ CONFIG_PACKAGE_ddns-scripts=y
 # CONFIG_PACKAGE_birdc6 is not set
 # CONFIG_PACKAGE_bmx6 is not set
 CONFIG_PACKAGE_igmpproxy=m
-CONFIG_PACKAGE_ip=m
+# CONFIG_PACKAGE_ip is not set
 # CONFIG_PACKAGE_lldpd is not set
 # CONFIG_PACKAGE_net-tools-route is not set
 # CONFIG_PACKAGE_olsrd is not set
@@ -3448,7 +3446,7 @@ CONFIG_PACKAGE_iw=y
 # CONFIG_PACKAGE_mrd6 is not set
 # CONFIG_PACKAGE_mrtg is not set
 # CONFIG_PACKAGE_mtr is not set
-CONFIG_PACKAGE_multiwan=m
+# CONFIG_PACKAGE_multiwan is not set
 # CONFIG_PACKAGE_mvprelay is not set
 # CONFIG_PACKAGE_nbd is not set
 # CONFIG_PACKAGE_nbtscan is not set
@@ -3776,7 +3774,7 @@ CONFIG_PACKAGE_alsa-utils=y
 # CONFIG_PACKAGE_avrdude is not set
 # CONFIG_PACKAGE_avrusbboot is not set
 # CONFIG_PACKAGE_bandwidthd is not set
-CONFIG_PACKAGE_bash=y
+# CONFIG_PACKAGE_bash is not set
 # CONFIG_PACKAGE_bash-completion is not set
 # CONFIG_PACKAGE_bc is not set
 # CONFIG_PACKAGE_bluelog is not set
@@ -3940,7 +3938,7 @@ CONFIG_PACKAGE_openssl-util=m
 # CONFIG_PACKAGE_sane-frontends is not set
 # CONFIG_PACKAGE_schedtool is not set
 # CONFIG_PACKAGE_scponly is not set
-CONFIG_PACKAGE_screen=y
+# CONFIG_PACKAGE_screen is not set
 # CONFIG_PACKAGE_sed is not set
 # CONFIG_PACKAGE_sg3-utils is not set
 # CONFIG_PACKAGE_shadow is not set
